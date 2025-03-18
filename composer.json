@@ -1,0 +1,23 @@
+{
+    "name": "pcb-flow/dingtalk",
+    "description": "A PHP SDK for dingtalk API, providing a simple interface to interact with dingtalk services.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PcbFlow\\Dingtalk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wanglf63",
+            "email": "906259933@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "psr/simple-cache": "^1.0",
+        "symfony/cache": "^5.0",
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
